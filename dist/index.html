@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Practise</title>
+    <link rel="shortcut icon" href="image/logo.svg" type="image/x-icon" />
+    <!-- owl css -->
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <!-- output css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- header section start here -->
+    <section>
+        <div class="container shadow-md py-2">
+            <nav class="relative flex items-center justify-between">
+                <div>
+                    <a class="block w-16" href="#">
+                        <img src="image/logo.svg" alt="logo" />
+                    </a>
+                </div>
+                <div>
+                    <div class="flex items-center gap-3 flex-wrap justify-end">
+                        <form class="flex items-center border py-2 px-3 rounded-full gap-x-1 outline-black" action="#">
+                            <img class="w-5 h-5" src="image/icons8-search.svg" alt="search" />
+                            <input class="w-20 focus:outline-none font-primay placeholder:text-sm" type="search"
+                                name="search" id="" placeholder="Search..." />
+                        </form>
+                        <span class="bg-purple-600 p-2 rounded-full flex items-center hover:bg-purple-700 duration-300">
+                            <span class="iconify text-white" data-icon="game-icons:wallet"></span>
+                        </span>
+                        <div class="relative">
+                            <button id="profile_btn" class="w-8 h-8">
+                                <img class="rounded-full ring-2 ring-cyan-400" src="image/avatar.jpg" alt="profile" />
+                            </button>
+                            <div id="profile" class="absolute top-[50px] right-0 z-50 hidden">
+                                <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-20 rounded-t">
+                                </div>
+                                <div class="bg-white p-[20px] flex flex-col gap-y-[10px] rounded-b">
+                                    <div class="flex items-center gap-x-2">
+                                        <img class="w-10 rounded-full" src="image/avatar.jpg" alt="avatar" />
+                                        <span class="font-heading">Jayen Hasan</span>
+                                    </div>
+                                    <div class="flex items-end justify-between">
+                                        <div>
+                                            <h6 class="font-heading font-semibold">Wallet:</h6>
+                                            <span class="font-primay text-[12px] text-gray-500">qhut0...hfteh45</span>
+                                        </div>
+                                        <button class="hover:text-purple-700 duration-300">
+                                            <span class="iconify" data-icon="clarity:copy-solid" title="copy"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flex">
+                                        <h6 class="text-purple-700">
+                                            <span
+                                                class="font-primay text-gray-800 text-[14px]font-semibold">Balance:</span>0.00045ETH
+                                        </h6>
+                                    </div>
+                                    <div>
+                                        <ul class="flex flex-col gap-y-[10px]">
+                                            <li>
+                                                <a class="flex items-center gap-[5px] font-primay text-gray-800 hover:text-purple-700 duration-300"
+                                                    href="#">
+                                                    <span class="iconify text-xl" data-icon="entypo:user"></span>
+                                                    Profile
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="flex items-center gap-[5px] font-primay text-gray-800 hover:text-purple-700 duration-300"
+                                                    href="#">
+                                                    <span class="iconify text-xl"
+                                                        data-icon="fluent:settings-24-filled"></span>
+                                                    Settings
+                                                </a>
+                                            </li>
+                                            <li class="border-t"></li>
+                                            <li>
+                                                <a class="flex items-center gap-[5px] font-primay text-gray-800 hover:text-purple-700 duration-300"
+                                                    href="#">
+                                                    <span class="iconify text-xl" data-icon="mdi:logout"></span>
+                                                    Logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="phone_toggle" class="flex flex-col gap-1.5">
+                                <span class="iconify" data-icon="line-md:menu" id="menu_icon"></span>
+                            </button>
+                            <ul id="phone_menu"
+                                class="z-50 hidden absolute -left-5 top-[51px] bg-white shadow-sm w-full px-7 py-3.5 font-primay">
+                                <li class="py-[10px]">
+                                    <a class="text-purple-700 font-semibold flex justify-between" href="#">Home
+                                        <img class="w-3" src="image/down-arrow-svgrepo-com.svg" alt="arrow" />
+                                    </a>
+                                </li>
+                                <li class="py-[10px]">
+                                    <a class="flex justify-between hover:text-purple-700 font-semibold duration-300"
+                                        href="#">Explore
+                                        <img class="w-3" src="image/down-arrow-svgrepo-com.svg" alt="arrow" />
+                                    </a>
+                                </li>
+                                <li class="py-[10px]">
+                                    <a class="hover:text-purple-700 font-semibold duration-300" href="#">Wallet</a>
+                                </li>
+                                <li class="py-[10px]">
+                                    <a class="flex justify-between hover:text-purple-700 font-semibold duration-300"
+                                        href="#">sections
+                                        <img class="w-3" src="image/down-arrow-svgrepo-com.svg" alt="arrow" />
+                                    </a>
+                                </li>
+                                <li class="py-[10px]">
+                                    <a class="hover:text-purple-700 font-semibold duration-300" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- header section End here -->
+
+    <!-- Hro Section Start Here -->
+    <section
+        class="flex items-center h-[500px] justify-center bg-gradient-to-r from-violet-200 to-pink-200 overflow-hidden">
+        <div class="container">
+            <div class="text-violet-900 text-4xl animate-[spin_30s_linear_infinite]">
+                &times;
+            </div>
+            <div class="row grid grid-cols-1 justify-center items-center">
+                <div class="col-span-1 flex flex-col items-center gap-y-[30px]">
+                    <div class="relative">
+                        <h1 class="font-heading text-center text-white text-[40px] leading-[50px] font-extrabold">
+                            Discover rate collection or
+                            <span
+                                class="relative bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text after:content-[''] after:block after:w-5 after:h-5 after:bg-red-500 after:absolute after:top-0 after:right-0 after:rounded-full after:animate-ping">Arts
+                                & NFTs</span>
+                        </h1>
+                        <div class="absolute top-[250px]">
+                            <span
+                                class="p-5 bg-gradient-to-r from-purple-500 to-pink-500 inline-block rounded-md animate-[spin_10s_linear_infinite]"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-primay text-gray-400 text-center text-[18px] leading-[28px]">
+                            We are a huge marketplace dedicated to connecting great artists
+                            of all Giglink with their fans and unique token collectors!
+                        </p>
+                    </div>
+                    <div>
+                        <button class="btn btn-purple py-2 px-6">Explore now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hro Section End Here -->
+
+    <!-- Top collections section start here -->
+    <section class="py-[50px] bg-gradient-to-r from-violet-200 to-pink-200">
+        <div class="container flex flex-col gap-[50px]">
+            <div class="row">
+                <div class="heading">
+                    <h1 class="font-heading text-center font-bold text-white">
+                        Top Collections
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel owl-theme top_collections">
+                    <div class="item">
+                        <div class="p-[15px] bg-white rounded-md shadow-lg flex flex-col gap-y-[60px]">
+                            <div
+                                class="top bg-[url('image/walking.gif')] bg-no-repeat bg-center bg-cover aspect-square rounded-md">
+                            </div>
+                            <div class="bottom relative px-5">
+                                <div class="w-16 shadow-md absolute bottom-[130%]">
+                                    <img class="rounded-md" src="image/avatar.jpg" alt="avatar" />
+                                    <span class="iconify text-2xl text-green-600 absolute bottom-0 right-0"
+                                        data-icon="ic:baseline-verified"></span>
+                                </div>
+                                <div>
+                                    <h6
+                                        class="font-primay text-xl text-gray-950 font-bold hover:text-purple-700 duration-300">
+                                        <a href="#">Gif Collection</a>
+                                    </h6>
+                                    <span class="font-heading block text-gray-600">by
+                                        <a class="font-primay text-purple-700" href="#">@Jayen</a></span>
+                                    <span class="font-primay text-gray-600">25 Items</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-5 bg-white rounded-md shadow-lg flex flex-col gap-y-[60px]">
+                            <div
+                                class="top bg-[url('image/character-female.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md">
+                            </div>
+                            <div class="bottom relative px-5">
+                                <div class="w-16 shadow-md absolute bottom-[130%]">
+                                    <img class="rounded-md" src="image/avatar.jpg" alt="avatar" />
+                                    <span class="iconify text-2xl text-green-600 absolute bottom-0 right-0"
+                                        data-icon="ic:baseline-verified"></span>
+                                </div>
+                                <div>
+                                    <h6
+                                        class="font-primay text-xl text-gray-950 font-bold hover:text-purple-700 duration-300">
+                                        <a href="#">Gif Collection</a>
+                                    </h6>
+                                    <span class="font-heading block text-gray-600">by
+                                        <a class="font-primay text-purple-700" href="#">@Jayen</a></span>
+                                    <span class="font-primay text-gray-600">25 Items</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-5 bg-white rounded-md shadow-lg flex flex-col gap-y-[60px]">
+                            <div
+                                class="top bg-[url('image/character-male.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md">
+                            </div>
+                            <div class="bottom relative px-5">
+                                <div class="w-16 shadow-md absolute bottom-[130%]">
+                                    <img class="rounded-md" src="image/avatar.jpg" alt="avatar" />
+                                    <span class="iconify text-2xl text-green-600 absolute bottom-0 right-0"
+                                        data-icon="ic:baseline-verified"></span>
+                                </div>
+                                <div>
+                                    <h6
+                                        class="font-primay text-xl text-gray-950 font-bold hover:text-purple-700 duration-300">
+                                        <a href="#">Gif Collection</a>
+                                    </h6>
+                                    <span class="font-heading block text-gray-600">by
+                                        <a class="font-primay text-purple-700" href="#">@Jayen</a></span>
+                                    <span class="font-primay text-gray-600">25 Items</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-5 bg-white rounded-md shadow-lg flex flex-col gap-y-[60px]">
+                            <div
+                                class="top bg-[url('image/walking.gif')] bg-no-repeat bg-center bg-cover aspect-square rounded-md">
+                            </div>
+                            <div class="bottom relative px-5">
+                                <div class="w-16 shadow-md absolute bottom-[130%]">
+                                    <img class="rounded-md" src="image/avatar.jpg" alt="avatar" />
+                                    <span class="iconify text-2xl text-green-600 absolute bottom-0 right-0"
+                                        data-icon="ic:baseline-verified"></span>
+                                </div>
+                                <div>
+                                    <h6
+                                        class="font-primay text-xl text-gray-950 font-bold hover:text-purple-700 duration-300">
+                                        <a href="#">Gif Collection</a>
+                                    </h6>
+                                    <span class="font-heading block text-gray-600">by
+                                        <a class="font-primay text-purple-700" href="#">@Jayen</a></span>
+                                    <span class="font-primay text-gray-600">25 Items</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-5 bg-white rounded-md shadow-lg flex flex-col gap-y-[60px]">
+                            <div
+                                class="top bg-[url('image/character-female.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md">
+                            </div>
+                            <div class="bottom relative px-5">
+                                <div class="w-16 shadow-md absolute bottom-[130%]">
+                                    <img class="rounded-md" src="image/avatar.jpg" alt="avatar" />
+                                    <span class="iconify text-2xl text-green-600 absolute bottom-0 right-0"
+                                        data-icon="ic:baseline-verified"></span>
+                                </div>
+                                <div>
+                                    <h6
+                                        class="font-primay text-xl text-gray-950 font-bold hover:text-purple-700 duration-300">
+                                        <a href="#">Gif Collection</a>
+                                    </h6>
+                                    <span class="font-heading block text-gray-600">by
+                                        <a class="font-primay text-purple-700" href="#">@Jayen</a></span>
+                                    <span class="font-primay text-gray-600">25 Items</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <a class="see_more" href="#">
+                    <span>See More</span>
+                    <span class="iconify" data-icon="solar:arrow-right-linear"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Top collections section End here -->
+
+    <!-- Discover Items section start here -->
+    <section class="bg-gradient-to-r from-violet-200 to-pink-200 py-[50px]">
+        <div class="container flex flex-col gap-[50px]">
+            <div>
+                <h2 class="font-heading text-4xl text-center text-white font-bold">
+                    Discover Items
+                </h2>
+            </div>
+            <div class="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[20px]">
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/walking.gif')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/character-male.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/character-female.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/walking.gif')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/character-male.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/character-female.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/walking.gif')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-white p-[20px] rounded-md shadow hover:shadow-lg group">
+                    <div class="relative overflow-hidden">
+                        <div
+                            class="bg-[url('image/character-male.jpg')] bg-no-repeat bg-center bg-cover aspect-square rounded-md group-hover:scale-[1.1] duration-500">
+                        </div>
+                        <div
+                            class="absolute top-full group-hover:top-[50%] start-0 end-0 text-center transition-all duration-500">
+                            <a class="btn btn-purple inline-flex items-center py-2" href="#">
+                                <span class="iconify" data-icon="mdi:electricity"></span>
+                                <span>Buy Now</span>
+                            </a>
+                        </div>
+                        <div class="absolute top-[10px] right-[10px]">
+                            <a class="btn btn-purple p-[5px] hidden group-hover:inline-block duration-[.5s]" href="#">
+                                <span class="iconify text-white text-xl" data-icon="octicon:plus-24"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-[10px] py-[10px]">
+                        <div class="flex items-center gap-x-[10px]">
+                            <img class="rounded-full w-10" src="image/avatar.jpg" alt="avatar" />
+                            <a class="font-primay text-sm text-gray-400 hover:text-purple-700 duration-300"
+                                href="#">@ButterFly</a>
+                        </div>
+                        <div>
+                            <h6
+                                class="inline-block font-primay font-bold text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Probably A Label #3277</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex justify-between p-[10px] bg-gray-300 rounded-md shadow-inner-md border">
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Price</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-primay text-gray-400">Highest Bid</span>
+                            <div class="flex items-center gap-x-[5px] font-primay font-bold text-gray-800">
+                                <span class="iconify" data-icon="logos:ethereum"></span>
+                                <span>3.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="see_more" href="#">
+                    <span>Explore More</span>
+                    <span class="iconify" data-icon="solar:arrow-right-linear"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Discover Items section End here -->
+
+    <!-- Best Creator And sellers section start here -->
+    <section class="bg-gradient-to-r from-violet-200 to-pink-200 py-[50px]">
+        <div class="container flex flex-col gap-[50px]">
+            <div class="flex flex-col gap-[20px] text-center">
+                <div>
+                    <h2 class="font-heading font-bold text-4xl text-gray-800">
+                        Best Creators & Sellers
+                    </h2>
+                </div>
+                <div>
+                    <p class="font-primay text-[14px] text-gray-500">
+                        We are a huge marketplace dedicated to connecting great artists of
+                        all Giglink with their fans and unique token collectors!
+                    </p>
+                </div>
+            </div>
+            <div class="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-1.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-2.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-3.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-4.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-5.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-6.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-2.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-3.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between p-[10px] shadow-md rounded-md bg-white">
+                    <div class="flex gap-[20px]">
+                        <div class="relative">
+                            <img class="rounded-md" src="image/avatar-5.jpg" alt="avatart-2" />
+                            <span class="iconify text-2xl text-green-600 absolute top-[-5px] right-[-10px]"
+                                data-icon="ic:baseline-verified"></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h6
+                                class="inline-block font-heading font-bold text-lg text-gray-800 hover:text-purple-700 duration-300">
+                                <a href="#">Steven Townsend</a>
+                            </h6>
+                            <span class="font-primay text-gray-500">@StreetBoy</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <a class="p-[10px] text-[20px] text-purple-700 rounded-full bg-purple-100 shadow-inner hover:bg-purple-700 hover:text-white duration-500"
+                            href="#">
+                            <span class="iconify" data-icon="iconoir:add-user"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Best Creator And sellers section End here -->
+
+    <!-- Q&A Section Start Here -->
+    <section class="py-[50px] bg-gradient-to-r from-violet-200 to-pink-200">
+        <div class="container">
+            <div class="flex flex-col gap-[20px] text-center">
+                <div>
+                    <h2 class="font-heading font-bold text-4xl text-gray-800">Q&A</h2>
+                </div>
+                <div>
+                    <p class="font-primay text-[14px] text-gray-500">
+                        We are a huge marketplace dedicated to connecting great artists of
+                        all Giglink with their fans and unique token collectors!
+                    </p>
+                </div>
+            </div>
+            <div class="accordian flex flex-col items-center gap-[10px]">
+                <div class="accordian-item">
+                    <div class="accordian-header">
+                        <h2 class="font-heading text-xl">How does it work ?</h2>
+                        <span class="iconify transition-transform duration-500" data-icon="ep:arrow-down-bold"
+                            id="rotate"></span>
+                    </div>
+                    <div class="accordian-body hidden">
+                        <p class="font-primay">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordian-item">
+                    <div class="accordian-header">
+                        <h2 class="font-heading text-xl">
+                            Do I need a designer to use Giglink ?
+                        </h2>
+                        <span class="iconify transition-transform duration-500" data-icon="ep:arrow-down-bold"
+                            id="rotate"></span>
+                    </div>
+                    <div class="accordian-body hidden">
+                        <p class="font-primay">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordian-item">
+                    <div class="accordian-header">
+                        <h2 class="font-heading text-xl">
+                            What do I need to do to start selling ?
+                        </h2>
+                        <span class="iconify transition-transform duration-500" data-icon="ep:arrow-down-bold"
+                            id="rotate"></span>
+                    </div>
+                    <div class="accordian-body hidden">
+                        <p class="font-primay">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordian-item">
+                    <div class="accordian-header">
+                        <h2 class="font-heading text-xl">
+                            What happens when I receive an order ?
+                        </h2>
+                        <span class="iconify transition-transform duration-500" data-icon="ep:arrow-down-bold"
+                            id="rotate"></span>
+                    </div>
+                    <div class="accordian-body hidden">
+                        <p class="font-primay">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Q&A Section End Here -->
+
+    <!-- Contact Section start here -->
+    <section class="bg-gradient-to-r from-violet-200 to-pink-200">
+        <div class="container flex flex-col gap-[50px] relative">
+            <div class="flex flex-col gap-[20px] text-center">
+                <div>
+                    <h2 class="font-heading font-bold text-4xl text-gray-800">
+                        Have Question ? Get in touch!
+                    </h2>
+                </div>
+                <div>
+                    <p class="font-primay text-[14px] text-gray-500">
+                        We are a huge marketplace dedicated to connecting great artists of
+                        all Giglink with their fans and unique token collectors!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="flex justify-center">
+                    <a class="btn btn-purple py-2 px-6 inline-flex items-center gap-[5px] text-lg" href="#">
+                        <span class="iconify" data-icon="ic:baseline-phone"></span>
+                        Contact</a>
+                </div>
+            </div>
+            <div class="row w-full px-6 py-10 grid grid-cols-1 md:grid-cols-2 shadow-lg rounded-lg gap-[20px]">
+                <div class="flex flex-col gap-[10px] text-center md:text-left">
+                    <h2 class="font-heading font-bold text-2xl text-gray-800">
+                        Subscribe to Newsletter!
+                    </h2>
+                    <p class="font-primay text-lg text-gray-400">
+                        Subscribe to get latest updates and information.
+                    </p>
+                </div>
+                <div>
+                    <form action="#" class="flex items-center border pl-6 rounded-full gap-x-1 outline-black">
+                        <input class="w-full bg-transparent focus:outline-none font-primay placeholder:text-sm"
+                            type="search" name="search" placeholder="Enter your email:" />
+                        <input class="font-primay bg-violet-600 py-3 px-5 rounded-r-full text-white cursor-pointer"
+                            type="submit" value="Subscribe" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End here -->
+
+    <!-- Footer Section Start Here -->
+    <section class="bg-gradient-to-r from-violet-200 to-pink-200 pt-6">
+        <div class="container">
+            <div class="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-[50px]">
+                <div>
+                    <div>
+                        <img src="image/logo.svg" alt="footer logo" />
+                        <p class="font-primay text-gray-700">
+                            Buy, sell and discover exclusive digital assets by the top
+                            artists of NFTs world.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h6 class="footer-link-heading">Giglink</h6>
+                    <div>
+                        <ul class="footer-list">
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Explore Item
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Live Auction
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Activities
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Wallets
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Creators
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h6 class="footer-link-heading">Usefull Links</h6>
+                    <div>
+                        <ul class="footer-list">
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Blog & News
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Terms & Condition
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Privacy policy
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="#">
+                                    <span class="iconify" data-icon="octicon:chevron-right-16"></span>
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <div class="flex flex-col gap-5">
+                        <h6 class="footer-link-heading">Download the Giglink app</h6>
+                        <div class="flex gap-5">
+                            <a class="inline-flex" href="#">
+                                <img class="rounded-sm" src="image/Rectangle 71.jpg" alt="google-play" />
+                            </a>
+                            <a class="inline-flex" href="#">
+                                <img class="rounded-sm" src="image/Rectangle 72.jpg" alt="google-play" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <h6 class="footer-link-heading">Contact Details</h6>
+                        <div class="flex flex-col gap-[10px]">
+                            <a class="inline-flex items-center font-primay text-gray-700 hover:text-gray-950 gap-[10px] duration-300"
+                                href="mailto:jayenhasan1@gmail.com">
+                                <span class="iconify" data-icon="tabler:mail"></span>
+                                contact@example.com
+                            </a>
+                            <a class="inline-flex items-center font-primay text-gray-700 hover:text-gray-950 gap-[10px] duration-300"
+                                href="tel:+880 1406632822">
+                                <span class="iconify" data-icon="tabler:phone"></span>
+                                +880 123456789
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t py-[50px]">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[30px]">
+                    <div class="text-center md:col-span-2 md:text-left lg:col-span-1">
+                        <span class="font-semibold text-violet-500">&copy; 2023 Bring Ideas. Design & Develop with by
+                            <a class="underline text-violet-900" href="#">Shadapixel</a></span>
+                    </div>
+                    <div class="flex gap-[10px] justify-center md:justify-end">
+                        <a class="footer-icon" href="https://dribbble.com/"><span class="iconify"
+                                data-icon="icon-park-outline:dribble"></span></a>
+                        <a class="footer-icon" href="https://www.behance.net/"><span class="iconify"
+                                data-icon="ri:behance-line"></span></a>
+                        <a class="footer-icon" href="https://www.linkedin.com/"><span class="iconify"
+                                data-icon="mdi:linkedin"></span></a>
+                        <a class="footer-icon" href="https://www.facebook.com/"><span class="iconify"
+                                data-icon="ri:facebook-fill"></span></a>
+                        <a class="footer-icon" href="https://www.instagram.com/"><span class="iconify"
+                                data-icon="bi:instagram"></span></a>
+                        <a class="footer-icon" href="https://twitter.com/"><span class="iconify"
+                                data-icon="bi:twitter"></span></a>
+                        <a class="footer-icon" href="mailto:jayenhasan1@gmail.com"><span class="iconify"
+                                data-icon="tabler:mail"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End Here -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/iconify.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

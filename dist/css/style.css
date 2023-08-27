@@ -1,0 +1,60 @@
+.owl-carousel.owl-theme.top_collections .owl-nav button:first-child{
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+.owl-carousel.owl-theme.top_collections .owl-nav button:first-child:hover{
+    background: rebeccapurple;
+    color: white;
+}
+.owl-carousel.owl-theme.top_collections .owl-nav button:last-child{
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+.owl-carousel.owl-theme.top_collections .owl-nav button:last-child:hover{
+    background: rebeccapurple;
+    color: white;
+}
+/* #see_more > a{
+    position: relative;
+}
+#see_more > a::after{
+    content: '';
+    position: absolute;
+    inset-inline-end: 0;
+    left: 0;
+    bottom: 0;
+    inset-inline-start: 0;
+    height: 1px;
+    width: 0;
+    background-color: transparent;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .5s;
+}
+#see_more > a:hover::after{
+    inset-inline-end: auto;
+    width: 100%;
+    background-color: rebeccapurple;
+} */
